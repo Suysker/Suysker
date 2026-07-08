@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/0ea5e9/Suysker" width="100%" alt="GitHub contribution chart" />
+  <img src="https://raw.githubusercontent.com/Suysker/Suysker/main/assets/activity-stream.svg" width="100%" alt="Activity stream" />
 </p>
 
 <p align="center">
