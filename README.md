@@ -18,10 +18,6 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Suysker/Suysker/main/assets/activity-stream.svg" width="100%" alt="Activity stream" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suysker&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=22C55E&area=true&area_color=0EA5E9&custom_title=Contribution%20Graph" alt="Contribution graph" />
 </p>
 
