@@ -19,25 +19,6 @@
 
 </div>
 
-## Focus
-
-<table>
-  <tr>
-    <td width="33%">
-      <h3 align="center">Automation</h3>
-      <p align="center">Python, TypeScript, shell scripts, GitHub Actions, browser userscripts, and repeatable workflow tooling.</p>
-    </td>
-    <td width="33%">
-      <h3 align="center">Network Labs</h3>
-      <p align="center">OpenWrt builds, Xray deployment, CDN IP testing, routing experiments, and self-hosted infrastructure.</p>
-    </td>
-    <td width="33%">
-      <h3 align="center">Data Systems</h3>
-      <p align="center">Crawler pipelines, investment-model experiments, structured scripts, and measurable data workflows.</p>
-    </td>
-  </tr>
-</table>
-
 ## Stack
 
 <p align="center">
@@ -55,75 +36,6 @@
   <img src="https://img.shields.io/badge/Tampermonkey-00485B?style=for-the-badge&logo=tampermonkey&logoColor=white" alt="Tampermonkey" />
 </p>
 
-## Featured Work
-
-<table>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/Suysker/Ctrip-Crawler">Ctrip-Crawler</a></h3>
-      <p>Selenium-based flight crawler and the strongest public project signal in the account.</p>
-      <p>
-        <img src="https://img.shields.io/github/stars/Suysker/Ctrip-Crawler?style=flat-square&color=22c55e&label=stars" alt="Ctrip-Crawler stars" />
-        <img src="https://img.shields.io/github/languages/top/Suysker/Ctrip-Crawler?style=flat-square&color=38bdf8" alt="Ctrip-Crawler top language" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/Suysker/Enhanced-CDN-IP-Testing-Suite">Enhanced CDN IP Testing Suite</a></h3>
-      <p>CDN IP tester for Cloudflare, CloudFront, Gcore, IPv6, and geo-selection workflows.</p>
-      <p>
-        <img src="https://img.shields.io/github/stars/Suysker/Enhanced-CDN-IP-Testing-Suite?style=flat-square&color=22c55e&label=stars" alt="Enhanced-CDN-IP-Testing-Suite stars" />
-        <img src="https://img.shields.io/github/languages/top/Suysker/Enhanced-CDN-IP-Testing-Suite?style=flat-square&color=38bdf8" alt="Enhanced-CDN-IP-Testing-Suite top language" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/Suysker/xray-agent">xray-agent</a></h3>
-      <p>Xray deployment scripts with fallback support and network edge automation.</p>
-      <p>
-        <img src="https://img.shields.io/github/stars/Suysker/xray-agent?style=flat-square&color=22c55e&label=stars" alt="xray-agent stars" />
-        <img src="https://img.shields.io/github/languages/top/Suysker/xray-agent?style=flat-square&color=38bdf8" alt="xray-agent top language" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/Suysker/xox-model">xox-model</a></h3>
-      <p>TypeScript investment-model experiment with data workflow foundations.</p>
-      <p>
-        <img src="https://img.shields.io/github/stars/Suysker/xox-model?style=flat-square&color=22c55e&label=stars" alt="xox-model stars" />
-        <img src="https://img.shields.io/github/languages/top/Suysker/xox-model?style=flat-square&color=38bdf8" alt="xox-model top language" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/Suysker/user-scripts">user-scripts</a></h3>
-      <p>Browser userscripts for Tampermonkey and Greasemonkey automation.</p>
-      <p>
-        <img src="https://img.shields.io/github/stars/Suysker/user-scripts?style=flat-square&color=22c55e&label=stars" alt="user-scripts stars" />
-        <img src="https://img.shields.io/github/languages/top/Suysker/user-scripts?style=flat-square&color=38bdf8" alt="user-scripts top language" />
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/Suysker/Actions-OpenWrt">Actions-OpenWrt</a></h3>
-      <p>GitHub Actions template for repeatable OpenWrt cloud builds.</p>
-      <p>
-        <img src="https://img.shields.io/github/stars/Suysker/Actions-OpenWrt?style=flat-square&color=22c55e&label=stars" alt="Actions-OpenWrt stars" />
-        <img src="https://img.shields.io/github/languages/top/Suysker/Actions-OpenWrt?style=flat-square&color=38bdf8" alt="Actions-OpenWrt top language" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-## Project Map
-
-| Area | Public repositories | Signal |
-| --- | --- | --- |
-| Crawlers and data capture | [`Ctrip-Crawler`](https://github.com/Suysker/Ctrip-Crawler) | Selenium-based flight crawler with the strongest public star signal. |
-| Network and routing | [`xray-agent`](https://github.com/Suysker/xray-agent), [`Enhanced-CDN-IP-Testing-Suite`](https://github.com/Suysker/Enhanced-CDN-IP-Testing-Suite), [`Custom-AD-Rules`](https://github.com/Suysker/Custom-AD-Rules) | Deployment scripts, CDN testing, IPv6, routing rules, and practical network diagnostics. |
-| Firmware and home lab | [`Actions-OpenWrt`](https://github.com/Suysker/Actions-OpenWrt), [`builder`](https://github.com/Suysker/builder), [`r4s_build_script`](https://github.com/Suysker/r4s_build_script), [`padavan-4.4`](https://github.com/Suysker/padavan-4.4) | OpenWrt and router build work with GitHub Actions and device-focused scripts. |
-| Browser and workflow tools | [`user-scripts`](https://github.com/Suysker/user-scripts), [`scripts-monorepo`](https://github.com/Suysker/scripts-monorepo) | Small automations that remove repeated browser and local workflow friction. |
-| Models and experiments | [`xox-model`](https://github.com/Suysker/xox-model) | TypeScript investment-model exploration and data-driven experiments. |
-
 ## GitHub Signal
 
 <p align="center">
@@ -138,22 +50,8 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Suysker&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=22C55E&currStreakLabel=38BDF8" alt="GitHub streak" />
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suysker&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=22C55E&area=true&area_color=0EA5E9&custom_title=Contribution%20Graph" alt="Contribution graph" />
 </p>
-
-## Operating Style
-
-```text
-Build narrow tools.
-Make the workflow repeatable.
-Prefer scripts that explain themselves.
-Keep network and data experiments measurable.
-Turn rough manual steps into something that can run twice.
-```
 
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:22C55E,50:7C3AED,100:0EA5E9" alt="Footer" width="100%" />
