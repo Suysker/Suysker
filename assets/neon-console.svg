@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Neon signal console</title>
+  <desc id="desc">Animated cyber-style dashboard panel with neon grid, signal lines, and system status labels.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f" />
+      <stop offset="0.45" stop-color="#101336" />
+      <stop offset="1" stop-color="#031b14" />
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" />
+      <stop offset="0.48" stop-color="#8b5cf6" />
+      <stop offset="1" stop-color="#22c55e" />
+    </linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#38bdf8" stroke-width="0.7" opacity="0.18" />
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      .mono { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; }
+      .scan { animation: scan 4.8s linear infinite; }
+      .dash { stroke-dasharray: 18 12; animation: dash 5s linear infinite; }
+      .spark { animation: spark 1.8s ease-in-out infinite; }
+      .spark2 { animation: spark 2.6s ease-in-out infinite; }
+      @keyframes pulse { 0%,100% { opacity: .45 } 50% { opacity: 1 } }
+      @keyframes scan { 0% { transform: translateY(-300px) } 100% { transform: translateY(300px) } }
+      @keyframes dash { to { stroke-dashoffset: -240 } }
+      @keyframes spark { 0%,100% { opacity: .25; r: 3 } 50% { opacity: 1; r: 7 } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="#05070d" />
+  <rect x="18" y="18" width="1164" height="264" rx="16" fill="url(#panel)" stroke="#1f2937" />
+  <rect x="18" y="18" width="1164" height="264" rx="16" fill="url(#grid)" opacity="0.72" />
+
+  <g filter="url(#glow)">
+    <path class="dash" d="M80 218 C210 120 310 230 430 130 S650 70 760 162 930 250 1110 80" fill="none" stroke="url(#neon)" stroke-width="3" opacity="0.85" />
+    <path class="dash" d="M96 92 C220 170 292 58 402 122 S590 240 718 142 856 42 1090 205" fill="none" stroke="#22d3ee" stroke-width="2" opacity="0.55" />
+    <line x1="60" y1="248" x2="1140" y2="248" stroke="url(#neon)" stroke-width="2" opacity="0.55" />
+  </g>
+
+  <rect class="scan" x="18" y="0" width="1164" height="72" fill="url(#neon)" opacity="0.08" />
+
+  <g class="mono" fill="#e5f3ff">
+    <text x="64" y="62" font-size="18" letter-spacing="3" opacity="0.72">TRACE MODE</text>
+    <text x="980" y="62" font-size="18" letter-spacing="3" opacity="0.72">UPLINK 08:00</text>
+    <text x="64" y="145" font-size="54" font-weight="800" fill="#ffffff" filter="url(#glow)">SIGNAL GRID</text>
+    <text x="68" y="184" font-size="20" letter-spacing="4" fill="#38bdf8">AUTOMATION / NETWORK / DATA</text>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle class="spark" cx="92" cy="218" r="5" fill="#22d3ee" />
+    <circle class="spark2" cx="430" cy="130" r="5" fill="#8b5cf6" />
+    <circle class="spark" cx="760" cy="162" r="5" fill="#22c55e" />
+    <circle class="spark2" cx="1090" cy="205" r="5" fill="#38bdf8" />
+  </g>
+
+  <g class="mono" font-size="16" letter-spacing="2">
+    <rect x="64" y="226" width="185" height="36" rx="8" fill="#071827" stroke="#155e75" />
+    <text x="84" y="249" fill="#67e8f9">PACKETS: LIVE</text>
+    <rect x="278" y="226" width="180" height="36" rx="8" fill="#101329" stroke="#4c1d95" />
+    <text x="298" y="249" fill="#c4b5fd">BUILDS: GREEN</text>
+    <rect x="487" y="226" width="176" height="36" rx="8" fill="#061a12" stroke="#166534" />
+    <text x="507" y="249" fill="#86efac">ROUTES: ACTIVE</text>
+    <rect x="692" y="226" width="150" height="36" rx="8" fill="#111827" stroke="#334155" />
+    <text x="712" y="249" fill="#cbd5e1">MODE: DARK</text>
+  </g>
+
+  <g opacity="0.9" filter="url(#glow)">
+    <rect x="934" y="108" width="170" height="12" rx="6" fill="#0f172a" />
+    <rect x="934" y="108" width="122" height="12" rx="6" fill="#22d3ee" />
+    <rect x="934" y="140" width="170" height="12" rx="6" fill="#0f172a" />
+    <rect x="934" y="140" width="146" height="12" rx="6" fill="#8b5cf6" />
+    <rect x="934" y="172" width="170" height="12" rx="6" fill="#0f172a" />
+    <rect x="934" y="172" width="94" height="12" rx="6" fill="#22c55e" />
+  </g>
+
+  <rect x="18" y="18" width="1164" height="264" rx="16" fill="none" stroke="url(#neon)" stroke-width="2" opacity="0.75" />
+</svg>
