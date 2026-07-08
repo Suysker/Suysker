@@ -1,24 +1,3 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=235&section=header&color=0:0EA5E9,45:7C3AED,100:22C55E&text=Suysker&fontColor=FFFFFF&fontSize=66&fontAlignY=35&desc=Automation%20Engineer%20%7C%20Network%20Tooling%20%7C%20Data%20Systems&descSize=18&descAlignY=58&animation=fadeIn" alt="Suysker" width="100%" />
-
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=700&color=38BDF8&center=true&vCenter=true&width=900&lines=Python+%2B+TypeScript+automation;Network+tooling+for+OpenWrt%2C+Xray%2C+CDN+testing;Crawler+systems+and+browser+user+scripts;Small+tools%2C+sharp+edges%2C+real+workflows" alt="Typing SVG" />
-</a>
-
-<br />
-
-<a href="https://blog.suysker.xyz">
-  <img src="https://img.shields.io/badge/blog.suysker.xyz-111827?style=for-the-badge&logo=rss&logoColor=22c55e" alt="Blog" />
-</a>
-<a href="https://github.com/Suysker?tab=repositories">
-  <img src="https://img.shields.io/badge/repositories-0f172a?style=for-the-badge&logo=github&logoColor=38bdf8" alt="Repositories" />
-</a>
-<img src="https://img.shields.io/badge/Shanghai-0f172a?style=for-the-badge&logo=googlemaps&logoColor=38bdf8" alt="Shanghai" />
-<img src="https://komarev.com/ghpvc/?username=Suysker&style=for-the-badge&color=0ea5e9" alt="Profile views" />
-
-</div>
-
 ## Stack
 
 <p align="center">
